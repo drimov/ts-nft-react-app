@@ -6,6 +6,8 @@ export type nftType = {
   price: string
   expire: string
   avatar: string
+  createdAt?: string
+  fetchedAt?: string
 }
 
 export type ChildrenProps = {
