@@ -1,9 +1,7 @@
-type CardContainerProps = {
-	children: React.ReactNode
-}
+import {ChildrenProps} from '../../types/types'
 
-const CardContainer = ({children}: CardContainerProps) => {
-	return <div className="card-container">{children}</div>
+const CardContainer = ({children}: ChildrenProps) => {
+  return <div className="card-container">{children}</div>
 }
 
 export {CardContainer}
